@@ -1,0 +1,26 @@
+{
+  "name": "chuck-alesis-q25",
+  "version": "1.0.0",
+  "description": "A component for the [chuck-flux-synth](https://www.npmjs.com/package/chuck-flux-synth) based on the dirt-cheap [Alesis Q25 Keyboard](http://alesis.com/products/legacy/q25).",
+  "main": "index.ck",
+  "files": [
+    "package"
+  ],
+  "scripts": {
+    "start": "steve start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brycekbargar/chuck-AlesisQ25.git"
+  },
+  "author": "Bryce",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brycekbargar/chuck-AlesisQ25/issues"
+  },
+  "homepage": "https://github.com/brycekbargar/chuck-AlesisQ25#readme",
+  "dependencies": {
+    "chuck-configurator": "^1.0.0",
+    "chuck-flux-synth": "^1.0.0"
+  }
+}
